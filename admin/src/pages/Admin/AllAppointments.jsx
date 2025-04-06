@@ -18,7 +18,7 @@ const AllAppointments = () => {
   return (
     <div className='w-full max-w-6xl m-5 '>
 
-      <p className='mb-3 text-lg font-medium'>Tất cả các cuộc hẹn</p>
+      <p className='mb-3 text-lg font-medium'>Tất cả các lịch hẹn của bệnh nhân </p>
 
       <div className='bg-white border rounded text-sm max-h-[80vh] overflow-y-scroll'>
         <div className='hidden sm:grid grid-cols-[0.5fr_3fr_1fr_3fr_3fr_1fr_1fr] grid-flow-col py-3 px-6 border-b'>
@@ -43,7 +43,7 @@ const AllAppointments = () => {
               <img src={item.docData.image} className='w-8 rounded-full bg-gray-200' alt="" /> <p>{item.docData.name}</p>
             </div>
             <p>{currency}{item.amount}</p>
-            {item.cancelled ? <p className='text-red-400 text-xs font-medium'>Đã huỷ</p> : item.isCompleted ? <p className='text-green-500 text-xs font-medium'>Completed</p> : <img onClick={() => cancelAppointment(item._id)} className='w-10 cursor-pointer' src={assets.cancel_icon} alt="" />}
+            {item.cancelled ? <p className='text-red-400 text-xs font-medium'>Đã huỷ</p> : item.isCompleted ? <p className='text-green-500 text-xs font-medium'>Hoàn thành </p> : <img onClick={() => cancelAppointment(item._id)} className='w-10 cursor-pointer' src={assets.cancel_icon} alt="" />}
           </div>
         ))}
       </div>
