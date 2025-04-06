@@ -97,7 +97,7 @@ const MyProfile = () => {
 
                     {isEdit
                         ? <select className='max-w-20 bg-gray-50' onChange={(e) => setUserData(prev => ({ ...prev, gender: e.target.value }))} value={userData.gender} >
-                            <option value="Not Selected">Chưa được chọn</option>
+                            <option value="Not Selected">Chưa chọn</option>
                             <option value="Male">Nam</option>
                             <option value="Female">Nữ</option>
                         </select>

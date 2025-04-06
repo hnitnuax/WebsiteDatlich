@@ -73,7 +73,7 @@ const Login = () => {
         <button className='bg-primary text-white w-full py-2 my-2 rounded-md text-base'>{state === 'Sign Up' ? 'Create account' : 'Login'}</button>
         {state === 'Sign Up'
           ? <p>Bạn đã có tài khoản? <span onClick={() => setState('Login')} className='text-primary underline cursor-pointer'>Đăng nhập tại đây</span></p>
-          : <p>Tạo tài khoản mới? <span onClick={() => setState('Sign Up')} className='text-primary underline cursor-pointer'>Nhấp vào đây</span></p>
+          : <p>Tạo tài khoản mới? <span onClick={() => setState('Sign Up')} className='text-primary underline cursor-pointer'>Đăng ký tại đây</span></p>
         }
       </div>
     </form>
