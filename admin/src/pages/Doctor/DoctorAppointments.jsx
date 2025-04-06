@@ -18,7 +18,7 @@ const DoctorAppointments = () => {
   return (
     <div className='w-full max-w-6xl m-5 '>
 
-      <p className='mb-3 text-lg font-medium'>Tất cả các cuộc hẹn</p>
+      <p className='mb-3 text-lg font-medium'>Tất cả các cuộc hẹn bệnh nhân</p>
 
       <div className='bg-white border rounded text-sm max-h-[80vh] overflow-y-scroll'>
         <div className='max-sm:hidden grid grid-cols-[0.5fr_2fr_1fr_1fr_3fr_1fr_1fr] gap-1 py-3 px-6 border-b'>

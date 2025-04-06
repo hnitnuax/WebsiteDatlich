@@ -6,7 +6,7 @@ const About = () => {
     <div>
 
       <div className='text-center text-2xl pt-10 text-[#707070]'>
-        <p>VỀ <span className='text-gray-700 font-semibold'>CHÚNG TÔI</span></p>
+        <p>GIỚI THIỆU VỀ <span className='text-gray-700 font-semibold'>CHÚNG TÔI</span></p>
       </div>
 
       <div className='my-10 flex flex-col md:flex-row gap-12'>
